@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.form-wrapper {
+    margin-top: auto;
+    border-top: 1px solid grey;
+    background: aliceblue;
+}
+
+.form-inner {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-wrapper {
+    width: 250px;
+    height: 30px;
+}
+
+#select {
+    width: 100%;
+    height: 100%;
+}
+
+#date-input {
+    width: 100%;
+    height: 100%;
+}
+
+#textarea-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+#textarea {
+    display: block;
+}
+
+#form-btn {
+    padding: 20px;
+    background: #fff3f5;
+    border: 1px solid grey;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#elements-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.element {
+    border: 1px solid grey;
+    background-color: aliceblue;
+    min-width: 200px;
+}
+
+.element-top {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.remove-btn {
+    padding: 4px;
+    margin-left: auto;
+}
+
+.element-bottom {
+    padding: 10px;
+    background: #fff3f5;
+}
